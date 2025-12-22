@@ -1,0 +1,11 @@
+{
+  "/[locale]/page": "app/[locale]/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/ai/page": "app/ai/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/services/page": "app/services/page.js",
+  "/tech/page": "app/tech/page.js"
+}
