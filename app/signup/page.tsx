@@ -3,11 +3,11 @@
 import type React from "react"
 
 import Link from "next/link"
-import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { Eye, EyeOff } from "lucide-react"
 import Navigation from "@/components/navigation"
 import { useAuth } from "@/lib/auth-context"
+import { useState, useEffect } from "react"
 
 export default function SignupPage() {
   const router = useRouter()
@@ -26,23 +26,25 @@ export default function SignupPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError("")
+    
+    if (formData.password !== formData.confirmPassword) {
+      setError("Les mots de passe ne correspondent pas")
+      return
+    }
+
     try {
-      const response = await fetch("https://kalvora-pdg.vercel.app/api/v1/auth/signup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+      // Appel à la fonction signup du contexte d'authentification
+      await signup({
+        name: formData.name,
+        email: formData.email,
+        password: formData.password,
+        role: formData.role
       })
-
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.error || "Erreur lors de l'inscription")
-      }
-
-      // Redirect to email confirmation with email param
+      
+      // Redirection vers la page de confirmation d'email
       router.push(`/confirm-email?email=${encodeURIComponent(formData.email)}`)
     } catch (err: any) {
-      setError(err.message || "Erreur lors de l'inscription")
+      setError(err.message || "Une erreur est survenue lors de l'inscription")
     }
   }
 
