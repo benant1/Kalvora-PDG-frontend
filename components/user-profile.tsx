@@ -4,6 +4,7 @@ import { useAuth } from '@/lib/auth-context'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://kalvora-pdg.vercel.app'
 
 export default function UserProfile() {
   const { user, logout } = useAuth()
@@ -17,7 +18,7 @@ export default function UserProfile() {
     if (user?.avatar) {
       // If avatar path starts with /, it's a relative path to backend
       if (user.avatar.startsWith('/')) {
-        setAvatarUrl(`http://localhost:4000${user.avatar}`)
+        setAvatarUrl(`${API_URL}${user.avatar}`)
       } else {
         setAvatarUrl(user.avatar)
       }
