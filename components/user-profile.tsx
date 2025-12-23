@@ -4,7 +4,7 @@ import { useAuth } from '@/lib/auth-context'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://kalvora-pdg.vercel.app'
+import { normalizeAvatarUrl } from '@/lib/api'
 
 export default function UserProfile() {
   const { user, logout } = useAuth()
@@ -16,24 +16,8 @@ export default function UserProfile() {
   // Load avatar from user data
   useEffect(() => {
     if (user?.avatar) {
-      // Si l'avatar commence par http, on l'utilise tel quel
-      if (user.avatar.startsWith('http')) {
-        // Si c'est localhost, on le remplace par l'URL de l'API
-        const url = new URL(user.avatar, window.location.origin)
-        if (url.hostname === 'localhost') {
-          setAvatarUrl(user.avatar.replace(/^http:\/\/localhost:\d+/, API_URL))
-        } else {
-          setAvatarUrl(user.avatar)
-        }
-      } 
-      // Si c'est un chemin relatif, on ajoute l'URL de base
-      else if (user.avatar.startsWith('/')) {
-        setAvatarUrl(`${API_URL}${user.avatar}`)
-      } 
-      // Sinon, on utilise la valeur telle quelle
-      else {
-        setAvatarUrl(user.avatar)
-      }
+      const normalizedUrl = normalizeAvatarUrl(user.avatar)
+      setAvatarUrl(normalizedUrl || null)
     } else {
       setAvatarUrl(null)
     }

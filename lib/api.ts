@@ -1,12 +1,22 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://kalvora-pdg.vercel.app'
 
 // Fonction utilitaire pour normaliser les URLs d'avatar
-function normalizeAvatarUrl(avatar: string | undefined): string | undefined {
+export function normalizeAvatarUrl(avatar: string | undefined): string | undefined {
   if (!avatar) return undefined
   
-  // Si c'est déjà une URL complète, on la retourne telle quelle
-  if (avatar.startsWith('http://') || avatar.startsWith('https://')) {
+  // Si c'est une URL locale, on la remplace par l'URL de production
+  if (avatar.startsWith('http://localhost:4000')) {
+    return avatar.replace('http://localhost:4000', API_URL)
+  }
+  
+  // Si c'est déjà une URL HTTPS, on la retourne telle quelle
+  if (avatar.startsWith('https://')) {
     return avatar
+  }
+  
+  // Si c'est une URL HTTP, on la convertit en HTTPS
+  if (avatar.startsWith('http://')) {
+    return 'https://' + avatar.substring(7)
   }
   
   // Si c'est un chemin relatif, on ajoute l'URL de base
@@ -14,8 +24,13 @@ function normalizeAvatarUrl(avatar: string | undefined): string | undefined {
     return `${API_URL}${avatar}`
   }
   
-  // Sinon, on retourne l'URL telle quelle
-  return avatar
+  // Si c'est une URL sans protocole, on ajoute https://
+  if (avatar.includes('://')) {
+    return `https://${avatar.split('://')[1]}`
+  }
+  
+  // Sinon, on ajoute l'URL de base
+  return `${API_URL}/${avatar}`
 }
 
 export async function apiCall(endpoint: string, options: RequestInit = {}) {
