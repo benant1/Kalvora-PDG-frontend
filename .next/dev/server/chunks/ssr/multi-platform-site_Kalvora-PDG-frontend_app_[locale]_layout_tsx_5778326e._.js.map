@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Thecode2/Desktop/lUMYNIS2/Kalvora/multi-platform-site/Kalvora-PDG-frontend/app/%5Blocale%5D/layout.tsx"],"sourcesContent":["import type { ReactNode } from \"react\"\r\n\r\nexport default function LocaleLayout({ children }: { children: ReactNode }) {\r\n\treturn <>{children}</>\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,aAAa,EAAE,QAAQ,EAA2B;IACzE,qBAAO;kBAAG;;AACX"}}]
+}

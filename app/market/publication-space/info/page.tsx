@@ -1,13 +1,14 @@
 "use client"
 
+import { Suspense } from "react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import { Check, Zap, Shield, Globe, TrendingUp, ArrowRight, Info, FileCheck, CreditCard, AlertCircle, RefreshCw } from "lucide-react"
 import Link from "next/link"
-import { useEffect, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
+import { useEffect, useState } from "react"
 
-export default function PublicationSpaceInfoPage() {
+function PublicationSpaceInfoContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const status = searchParams.get("status")
@@ -449,5 +450,19 @@ export default function PublicationSpaceInfoPage() {
 
       <Footer />
     </main>
+  )
+}
+
+export default function PublicationSpaceInfoPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+    }>
+      <Navigation />
+      <PublicationSpaceInfoContent />
+      <Footer />
+    </Suspense>
   )
 }
