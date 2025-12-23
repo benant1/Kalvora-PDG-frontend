@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/market/layout,_N_T_/market/purchase-space/layout,_N_T_/market/purchase-space/page,_N_T_/market/purchase-space"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/market/purchase-space/__PAGE__",
+    "/market/purchase-space",
+    "/market",
+    "/_index",
+    "/_head"
+  ]
+}
