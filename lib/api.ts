@@ -1,5 +1,23 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://kalvora-pdg.vercel.app'
 
+// Fonction utilitaire pour normaliser les URLs d'avatar
+function normalizeAvatarUrl(avatar: string | undefined): string | undefined {
+  if (!avatar) return undefined
+  
+  // Si c'est déjà une URL complète, on la retourne telle quelle
+  if (avatar.startsWith('http://') || avatar.startsWith('https://')) {
+    return avatar
+  }
+  
+  // Si c'est un chemin relatif, on ajoute l'URL de base
+  if (avatar.startsWith('/')) {
+    return `${API_URL}${avatar}`
+  }
+  
+  // Sinon, on retourne l'URL telle quelle
+  return avatar
+}
+
 export async function apiCall(endpoint: string, options: RequestInit = {}) {
   const url = `${API_URL}${endpoint}`
   const headers = new Headers({
@@ -39,7 +57,16 @@ export async function apiCall(endpoint: string, options: RequestInit = {}) {
       throw customError
     }
 
-    return response.json()
+    const data = await response.json()
+    
+    // Normaliser les URLs d'avatar dans la réponse
+    if (data?.user?.avatar) {
+      data.user.avatar = normalizeAvatarUrl(data.user.avatar)
+    } else if (data?.avatar) {
+      data.avatar = normalizeAvatarUrl(data.avatar)
+    }
+    
+    return data
   } catch (error) {
     if (error instanceof Error) {
       throw error

@@ -16,10 +16,22 @@ export default function UserProfile() {
   // Load avatar from user data
   useEffect(() => {
     if (user?.avatar) {
-      // If avatar path starts with /, it's a relative path to backend
-      if (user.avatar.startsWith('/')) {
+      // Si l'avatar commence par http, on l'utilise tel quel
+      if (user.avatar.startsWith('http')) {
+        // Si c'est localhost, on le remplace par l'URL de l'API
+        const url = new URL(user.avatar, window.location.origin)
+        if (url.hostname === 'localhost') {
+          setAvatarUrl(user.avatar.replace(/^http:\/\/localhost:\d+/, API_URL))
+        } else {
+          setAvatarUrl(user.avatar)
+        }
+      } 
+      // Si c'est un chemin relatif, on ajoute l'URL de base
+      else if (user.avatar.startsWith('/')) {
         setAvatarUrl(`${API_URL}${user.avatar}`)
-      } else {
+      } 
+      // Sinon, on utilise la valeur telle quelle
+      else {
         setAvatarUrl(user.avatar)
       }
     } else {
