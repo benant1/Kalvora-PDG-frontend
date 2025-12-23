@@ -2,7 +2,6 @@
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@reduxjs/toolkit/node_modules/immer/dist/immer.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/utils/env.ts
 __turbopack_context__.s([
     "Immer",
     ()=>Immer2,
@@ -46,6 +45,7 @@ __turbopack_context__.s([
     ()=>setUseStrictShallowCopy
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/utils/env.ts
 var NOTHING = Symbol.for("immer-nothing");
 var DRAFTABLE = Symbol.for("immer-draftable");
 var DRAFT_STATE = Symbol.for("immer-state");

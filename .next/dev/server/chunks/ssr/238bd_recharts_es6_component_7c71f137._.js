@@ -1705,7 +1705,7 @@ var DefaultTooltipContent = (props)=>{
                 var { value, name } = entry;
                 var finalValue = value;
                 var finalName = name;
-                if (finalFormatter) {
+                if ("TURBOPACK compile-time truthy", 1) {
                     var formatted = finalFormatter(value, name, entry, i, payload);
                     if (Array.isArray(formatted)) {
                         [finalValue, finalName] = formatted;

@@ -2,11 +2,11 @@
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/primitive/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/core/primitive/src/primitive.tsx
 __turbopack_context__.s([
     "composeEventHandlers",
     ()=>composeEventHandlers
 ]);
+// packages/core/primitive/src/primitive.tsx
 function composeEventHandlers(originalEventHandler, ourEventHandler, { checkForDefaultPrevented = true } = {}) {
     return function handleEvent(event) {
         originalEventHandler?.(event);
@@ -21,13 +21,13 @@ function composeEventHandlers(originalEventHandler, ourEventHandler, { checkForD
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/context/src/createContext.tsx
 __turbopack_context__.s([
     "createContext",
     ()=>createContext2,
     "createContextScope",
     ()=>createContextScope
 ]);
+// packages/react/context/src/createContext.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 ;
@@ -149,13 +149,13 @@ function composeContextScopes(...scopes) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/compose-refs/src/composeRefs.tsx
 __turbopack_context__.s([
     "composeRefs",
     ()=>composeRefs,
     "useComposedRefs",
     ()=>useComposedRefs
 ]);
+// packages/react/compose-refs/src/composeRefs.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 function setRef(ref, value) {
@@ -198,7 +198,6 @@ function useComposedRefs(...refs) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/slot/src/Slot.tsx
 __turbopack_context__.s([
     "Root",
     ()=>Root,
@@ -207,6 +206,7 @@ __turbopack_context__.s([
     "Slottable",
     ()=>Slottable
 ]);
+// packages/react/slot/src/Slot.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
@@ -425,11 +425,11 @@ function createCollection(name) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/use-layout-effect/src/useLayoutEffect.tsx
 __turbopack_context__.s([
     "useLayoutEffect",
     ()=>useLayoutEffect2
 ]);
+// packages/react/use-layout-effect/src/useLayoutEffect.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var useLayoutEffect2 = Boolean(globalThis?.document) ? __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"] : ()=>{};
@@ -439,11 +439,11 @@ var useLayoutEffect2 = Boolean(globalThis?.document) ? __TURBOPACK__imported__mo
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-id/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/id/src/id.tsx
 __turbopack_context__.s([
     "useId",
     ()=>useId
 ]);
+// packages/react/id/src/id.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)");
 ;
@@ -469,7 +469,6 @@ function useId(deterministicId) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/primitive/src/Primitive.tsx
 __turbopack_context__.s([
     "Primitive",
     ()=>Primitive,
@@ -478,6 +477,7 @@ __turbopack_context__.s([
     "dispatchDiscreteCustomEvent",
     ()=>dispatchDiscreteCustomEvent
 ]);
+// packages/react/primitive/src/Primitive.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)");
@@ -532,11 +532,11 @@ var Root = Primitive;
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/use-callback-ref/src/useCallbackRef.tsx
 __turbopack_context__.s([
     "useCallbackRef",
     ()=>useCallbackRef
 ]);
+// packages/react/use-callback-ref/src/useCallbackRef.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 function useCallbackRef(callback) {
@@ -558,11 +558,11 @@ function useCallbackRef(callback) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/use-controllable-state/src/useControllableState.tsx
 __turbopack_context__.s([
     "useControllableState",
     ()=>useControllableState
 ]);
+// packages/react/use-controllable-state/src/useControllableState.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
 ;
@@ -621,7 +621,6 @@ function useUncontrolledState({ defaultProp, onChange }) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-direction/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/direction/src/Direction.tsx
 __turbopack_context__.s([
     "DirectionProvider",
     ()=>DirectionProvider,
@@ -630,6 +629,7 @@ __turbopack_context__.s([
     "useDirection",
     ()=>useDirection
 ]);
+// packages/react/direction/src/Direction.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 ;
@@ -1282,11 +1282,11 @@ var Content = TabsContent;
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-escape-keydown/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// packages/react/use-escape-keydown/src/useEscapeKeydown.tsx
 __turbopack_context__.s([
     "useEscapeKeydown",
     ()=>useEscapeKeydown
 ]);
+// packages/react/use-escape-keydown/src/useEscapeKeydown.tsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
 ;

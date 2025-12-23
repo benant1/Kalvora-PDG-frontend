@@ -2,18 +2,18 @@
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.454.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "mergeClasses",
     ()=>mergeClasses,
     "toKebabCase",
     ()=>toKebabCase
 ]);
-const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 const mergeClasses = (...classes)=>classes.filter((className, index, array)=>{
         return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
     }).join(" ").trim();
@@ -23,16 +23,16 @@ const mergeClasses = (...classes)=>classes.filter((className, index, array)=>{
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>defaultAttributes
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>defaultAttributes
-]);
-var defaultAttributes = {
+ */ var defaultAttributes = {
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
     height: 24,
@@ -49,16 +49,16 @@ var defaultAttributes = {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Icon
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Icon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$defaultAttributes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 ;
@@ -87,16 +87,16 @@ const Icon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platfo
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>createLucideIcon
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>createLucideIcon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$Icon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)");
 ;
@@ -118,16 +118,16 @@ const createLucideIcon = (iconName, iconNode)=>{
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/cpu.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Cpu
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Cpu
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Cpu = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Cpu", [
     [
@@ -224,16 +224,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/info.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Info
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Info
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Info = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Info", [
     [
@@ -275,16 +275,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Mail
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Mail
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Mail = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Mail", [
     [
@@ -321,16 +321,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Menu
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Menu
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Menu = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Menu", [
     [
@@ -379,16 +379,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/pen-tool.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>PenTool
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>PenTool
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const PenTool = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("PenTool", [
     [
@@ -437,16 +437,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/shield-check.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ShieldCheck
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ShieldCheck
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ShieldCheck = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ShieldCheck", [
     [
@@ -479,16 +479,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ShoppingBag
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ShoppingBag
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ShoppingBag = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ShoppingBag", [
     [
@@ -528,16 +528,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Sparkles
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Sparkles
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Sparkles = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Sparkles", [
     [
@@ -591,16 +591,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/wand-sparkles.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>WandSparkles
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>WandSparkles
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const WandSparkles = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("WandSparkles", [
     [
@@ -675,16 +675,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/wrench.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Wrench
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Wrench
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Wrench = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Wrench", [
     [
@@ -710,16 +710,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>X
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>X
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const X = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("X", [
     [
@@ -752,16 +752,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/moon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Moon
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Moon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Moon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Moon", [
     [
@@ -787,16 +787,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/sun.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Sun
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Sun
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Sun = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Sun", [
     [
@@ -889,16 +889,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Users
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Users
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Users = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Users", [
     [
@@ -947,16 +947,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/shopping-cart.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ShoppingCart
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ShoppingCart
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ShoppingCart = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ShoppingCart", [
     [
@@ -1000,16 +1000,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>FileText
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>FileText
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const FileText = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("FileText", [
     [
@@ -1063,16 +1063,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/message-square.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>MessageSquare
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>MessageSquare
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const MessageSquare = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("MessageSquare", [
     [
@@ -1098,16 +1098,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>TrendingUp
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>TrendingUp
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const TrendingUp = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("TrendingUp", [
     [
@@ -1140,16 +1140,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/circle-check-big.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>CircleCheckBig
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>CircleCheckBig
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const CircleCheckBig = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CircleCheckBig", [
     [
@@ -1182,16 +1182,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/circle-x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>CircleX
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>CircleX
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const CircleX = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CircleX", [
     [
@@ -1233,16 +1233,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Clock
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Clock
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Clock = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Clock", [
     [
@@ -1277,16 +1277,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/trash-2.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Trash2
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Trash2
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Trash2 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Trash2", [
     [
@@ -1346,16 +1346,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/plus.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Plus
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Plus
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Plus = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Plus", [
     [
@@ -1388,16 +1388,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/square-pen.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>SquarePen
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>SquarePen
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const SquarePen = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("SquarePen", [
     [
@@ -1430,16 +1430,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/panels-top-left.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>PanelsTopLeft
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>PanelsTopLeft
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const PanelsTopLeft = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("PanelsTopLeft", [
     [
@@ -1483,16 +1483,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/palette.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Palette
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Palette
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Palette = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Palette", [
     [
@@ -1558,16 +1558,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/download.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Download
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Download
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const Download = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Download", [
     [
@@ -1610,16 +1610,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>DollarSign
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>DollarSign
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const DollarSign = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("DollarSign", [
     [
@@ -1655,16 +1655,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>ChartColumn
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>ChartColumn
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const ChartColumn = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ChartColumn", [
     [
@@ -1711,16 +1711,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/icons/user.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>User
+]);
 /**
  * @license lucide-react v0.454.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>User
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const User = (0, __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("User", [
     [
@@ -5738,6 +5738,12 @@ const twMerge = /*#__PURE__*/ createTailwindMerge(getDefaultConfig);
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/class-variance-authority/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "cva",
+    ()=>cva,
+    "cx",
+    ()=>cx
+]);
 /**
  * Copyright 2022 Joe Bell. All rights reserved.
  *
@@ -5752,13 +5758,7 @@ const twMerge = /*#__PURE__*/ createTailwindMerge(getDefaultConfig);
  * WARRANTIES OR REPRESENTATIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License.
- */ __turbopack_context__.s([
-    "cva",
-    ()=>cva,
-    "cx",
-    ()=>cx
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
 ;
 const falsyToString = (value)=>typeof value === "boolean" ? `${value}` : value === 0 ? "0" : value;
 const cx = __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["clsx"];
@@ -5804,20 +5804,7 @@ const cva = (base, config)=>(props)=>{
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/tslib/tslib.es6.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/******************************************************************************
-Copyright (c) Microsoft Corporation.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */ /* global Reflect, Promise, SuppressedError, Symbol, Iterator */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__addDisposableResource",
     ()=>__addDisposableResource,
     "__assign",
@@ -5885,7 +5872,20 @@ PERFORMANCE OF THIS SOFTWARE.
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
-var extendStatics = function(d, b) {
+/******************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */ /* global Reflect, Promise, SuppressedError, Symbol, Iterator */ var extendStatics = function(d, b) {
     extendStatics = Object.setPrototypeOf || ({
         __proto__: []
     }) instanceof Array && function(d, b) {
@@ -7696,7 +7696,6 @@ var suppressOthers = function(originalTarget, parentNode, markerName) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/immer/dist/immer.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/utils/env.ts
 __turbopack_context__.s([
     "Immer",
     ()=>Immer2,
@@ -7740,6 +7739,7 @@ __turbopack_context__.s([
     ()=>setUseStrictShallowCopy
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/utils/env.ts
 var NOTHING = Symbol.for("immer-nothing");
 var DRAFTABLE = Symbol.for("immer-draftable");
 var DRAFT_STATE = Symbol.for("immer-state");
@@ -8925,7 +8925,6 @@ function castImmutable(value) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/reselect/dist/reselect.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/devModeChecks/identityFunctionCheck.ts
 __turbopack_context__.s([
     "createSelector",
     ()=>createSelector,
@@ -8945,6 +8944,7 @@ __turbopack_context__.s([
     ()=>weakMapMemoize
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/devModeChecks/identityFunctionCheck.ts
 var runIdentityFunctionCheck = (resultFunc, inputSelectorsResults, outputSelectorResult)=>{
     if (inputSelectorsResults.length === 1 && inputSelectorsResults[0] === outputSelectorResult) {
         let isInputSameAsOutput = false;
@@ -9635,7 +9635,6 @@ var createStructuredSelector = Object.assign((inputSelectorsObject, selectorCrea
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/redux/dist/redux.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/utils/formatProdErrorMessage.ts
 __turbopack_context__.s([
     "__DO_NOT_USE__ActionTypes",
     ()=>actionTypes_default,
@@ -9657,6 +9656,7 @@ __turbopack_context__.s([
     ()=>legacy_createStore
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/utils/formatProdErrorMessage.ts
 function formatProdErrorMessage(code) {
     return `Minified Redux error #${code}; visit https://redux.js.org/Errors?code=${code} for the full message or use the non-minified dev environment for full errors. `;
 }
@@ -10027,13 +10027,13 @@ function isAction(action) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/redux-thunk/dist/redux-thunk.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/index.ts
 __turbopack_context__.s([
     "thunk",
     ()=>thunk,
     "withExtraArgument",
     ()=>withExtraArgument
 ]);
+// src/index.ts
 function createThunkMiddleware(extraArgument) {
     const middleware = ({ dispatch, getState })=>(next)=>(action)=>{
                 if (typeof action === "function") {
@@ -11659,6 +11659,7 @@ module.exports = __turbopack_context__.r("[project]/multi-platform-site/Kalvora-
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * use-sync-external-store-with-selector.development.js
@@ -11667,8 +11668,7 @@ module.exports = __turbopack_context__.r("[project]/multi-platform-site/Kalvora-
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function is(x, y) {
         return x === y && (0 !== x || 1 / x === 1 / y) || x !== x && y !== y;
@@ -11745,6 +11745,7 @@ else {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * use-sync-external-store-shim.development.js
@@ -11753,8 +11754,7 @@ else {
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function is(x, y) {
         return x === y && (0 !== x || 1 / x === 1 / y) || x !== x && y !== y;
@@ -11838,6 +11838,7 @@ else {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * use-sync-external-store-shim/with-selector.development.js
@@ -11846,8 +11847,7 @@ else {
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function is(x, y) {
         return x === y && (0 !== x || 1 / x === 1 / y) || x !== x && y !== y;
@@ -11924,7 +11924,6 @@ else {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/react-redux/dist/react-redux.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// src/utils/react.ts
 __turbopack_context__.s([
     "Provider",
     ()=>Provider_default,
@@ -11950,6 +11949,7 @@ __turbopack_context__.s([
     ()=>useStore
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/utils/react.ts
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 // src/hooks/useSelector.ts
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$use$2d$sync$2d$external$2d$store$2f$with$2d$selector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/use-sync-external-store/with-selector.js [app-client] (ecmascript)");
@@ -17614,13 +17614,13 @@ function __TURBOPACK__default__export__(numerals) {
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/d3-format/src/formatSpecifier.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// [[fill]align][sign][symbol][0][width][,][.precision][~][type]
 __turbopack_context__.s([
     "FormatSpecifier",
     ()=>FormatSpecifier,
     "default",
     ()=>formatSpecifier
 ]);
+// [[fill]align][sign][symbol][0][width][,][.precision][~][type]
 var re = /^(?:(.)?([<>=^]))?([+\-( ])?([$#])?(0)?(\d+)?(,)?(\.\d+)?(~)?([a-z%])?$/i;
 function formatSpecifier(specifier) {
     if (!(match = re.exec(specifier))) throw new Error("invalid format: " + specifier);
@@ -21107,6 +21107,7 @@ const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$projec
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/react-is/cjs/react-is.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * react-is.development.js
@@ -21115,8 +21116,7 @@ const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$projec
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function typeOf(object) {
         if ("object" === typeof object && null !== object) {

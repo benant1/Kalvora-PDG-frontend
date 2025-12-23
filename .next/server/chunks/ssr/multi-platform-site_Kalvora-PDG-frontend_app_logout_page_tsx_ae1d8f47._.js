@@ -1,3 +1,0 @@
-module.exports=[99960,a=>{"use strict";var b=a.i(81697),c=a.i(77138),d=a.i(81025),e=a.i(86481);function f(){let{logout:a}=(0,e.useAuth)(),f=(0,d.useRouter)();return(0,c.useEffect)(()=>{a(),f.push("/")},[a,f]),(0,b.jsx)("div",{className:"min-h-screen flex items-center justify-center",children:(0,b.jsxs)("div",{className:"text-center",children:[(0,b.jsx)("h1",{className:"text-2xl font-bold mb-4",children:"Déconnexion..."}),(0,b.jsx)("p",{className:"text-gray-600",children:"Vous êtes en train d'être déconnecté."})]})})}a.s(["default",()=>f])}];
-
-//# sourceMappingURL=multi-platform-site_Kalvora-PDG-frontend_app_logout_page_tsx_ae1d8f47._.js.map

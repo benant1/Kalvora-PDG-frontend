@@ -682,11 +682,11 @@ var DEFAULT_Y_AXIS_WIDTH = 60;
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/recharts/es6/util/LogUtils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* eslint no-console: 0 */ __turbopack_context__.s([
+__turbopack_context__.s([
     "warn",
     ()=>warn
 ]);
-var isDev = true;
+/* eslint no-console: 0 */ var isDev = true;
 var warn = function warn(condition, format) {
     for(var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++){
         args[_key - 2] = arguments[_key];
@@ -966,17 +966,17 @@ var reverse = (arr)=>{
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/recharts/es6/util/scale/util/arithmetic.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @fileOverview Some common arithmetic methods
- * @author xile611
- * @date 2015-09-17
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "getDigitCount",
     ()=>getDigitCount,
     "rangeStep",
     ()=>rangeStep
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$decimal$2e$js$2d$light$2f$decimal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/decimal.js-light/decimal.js [app-client] (ecmascript)");
+/**
+ * @fileOverview Some common arithmetic methods
+ * @author xile611
+ * @date 2015-09-17
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$decimal$2e$js$2d$light$2f$decimal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/decimal.js-light/decimal.js [app-client] (ecmascript)");
 ;
 /**
  * Get the digit count of a number.
@@ -1020,11 +1020,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
 "[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/recharts/es6/util/scale/getNiceTickValues.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @fileOverview calculate tick values of scale
- * @author xile611, arcthur
- * @date 2015-09-17
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "calculateStep",
     ()=>_calculateStep,
     "getFormatStep",
@@ -1038,7 +1034,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f
     "getValidInterval",
     ()=>getValidInterval
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$decimal$2e$js$2d$light$2f$decimal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/decimal.js-light/decimal.js [app-client] (ecmascript)");
+/**
+ * @fileOverview calculate tick values of scale
+ * @author xile611, arcthur
+ * @date 2015-09-17
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$decimal$2e$js$2d$light$2f$decimal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/decimal.js-light/decimal.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$recharts$2f$es6$2f$util$2f$scale$2f$util$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/recharts/es6/util/scale/util/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$multi$2d$platform$2d$site$2f$Kalvora$2d$PDG$2d$frontend$2f$node_modules$2f$recharts$2f$es6$2f$util$2f$scale$2f$util$2f$arithmetic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/multi-platform-site/Kalvora-PDG-frontend/node_modules/recharts/es6/util/scale/util/arithmetic.js [app-client] (ecmascript)");
 ;
